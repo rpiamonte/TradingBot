@@ -35,3 +35,6 @@ jobs:
 
       - name: Run Step 78CD diagnostics
         run: node backtesting/reports/step-78cd.js
+
+      - name: Run Step 78CJ trade-quality diagnostics
+        run: node backtesting/reports/step-78cj.js
