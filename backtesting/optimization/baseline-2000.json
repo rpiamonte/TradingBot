@@ -1,0 +1,49 @@
+{
+  "candleCount": 2000,
+  "executionSeconds": 7.274562538,
+  "result": {
+    "initialCapital": 1000,
+    "finalBalance": 995.1044552513334,
+    "netPnL": -4.895544748666566,
+    "returnPct": -0.48955447486666026,
+    "trades": 3,
+    "winRate": 0,
+    "profitFactor": 0,
+    "maxDrawdownPct": 0.4895544748666566,
+    "openPosition": null,
+    "finalEquity": 995.1044552513334,
+    "minimumObservedEquity": 995.1044552513334,
+    "tradeHistory": [
+      {
+        "side": "LONG",
+        "entryTime": 1784436300000,
+        "exitTime": 1784436480000,
+        "entry": 64778.75316,
+        "exit": 64750.708035989315,
+        "pnl": -1.4320046056323865,
+        "balance": 998.5679953943676,
+        "reason": "STOP"
+      },
+      {
+        "side": "SHORT",
+        "entryTime": 1784448480000,
+        "exitTime": 1784448720000,
+        "entry": 64681.86104,
+        "exit": 64714.562384875215,
+        "pnl": -1.5029170879420701,
+        "balance": 997.0650783064256,
+        "reason": "STOP"
+      },
+      {
+        "side": "LONG",
+        "entryTime": 1784481660000,
+        "exitTime": 1784482860000,
+        "entry": 64691.4357,
+        "exit": 64628.82335672637,
+        "pnl": -1.9606230550920736,
+        "balance": 995.1044552513334,
+        "reason": "STOP"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "experiment": "V3 minimum planned target 0.20%",
+  "candles": 129600,
+  "trades": 840,
+  "winRate": 29.166666666666668,
+  "returnPct": -67.39728337528386,
+  "finalBalance": 326.0271662471615,
+  "profitFactor": 0.2933990599113848,
+  "maxDrawdownPct": 67.39728337528385,
+  "status": "Experimental - not profitable"
+}

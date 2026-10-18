@@ -1,0 +1,10 @@
+{
+  "experiment": "15m EMA50/200 trend filter",
+  "candles": 129600,
+  "trades": 123,
+  "winRate": 17.88617886178862,
+  "returnPct": -12.438155245691684,
+  "finalBalance": 875.6184475430831,
+  "profitFactor": 0.262963747137827,
+  "maxDrawdownPct": 12.43815524569169
+}

@@ -1,0 +1,9 @@
+{
+  "experiment": "EMA21 pullback with 15-minute cooldown",
+  "trades": 3620,
+  "winRatePct": 13.370165745856355,
+  "returnPct": -99.30220574097676,
+  "finalBalance": 6.977942590232396,
+  "profitFactor": 0.05736608206417371,
+  "maxDrawdownPct": 99.30250722508474
+}

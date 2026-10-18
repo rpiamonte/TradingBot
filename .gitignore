@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+logs/
+
+# Historical download temporary files
+*.jsonl.part
+*.checkpoint.json
