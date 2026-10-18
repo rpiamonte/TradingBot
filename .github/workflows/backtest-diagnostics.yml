@@ -1,0 +1,37 @@
+name: TradingBot Backtest Diagnostics
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'backtesting/**'
+      - 'data/historical/**'
+      - '.github/workflows/backtest-diagnostics.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  diagnostics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify original V3 engine
+        run: |
+          echo "78c0860d7fdf9bf98e507c30cd9199b9a18c89e9fa117d6871af3e8b70bcd0d0  backtesting/v2/engine-v3.js" | sha256sum -c -
+
+      - name: Run Step 78CD diagnostics
+        run: node backtesting/reports/step-78cd.js
